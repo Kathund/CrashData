@@ -34,11 +34,11 @@
     },
     {
       "fixtype": 1,
-      "fix": "Remove Partly Sane Skies from your mods folder or disable the custom Auction House GUI.",
+      "fix": "Disable Iris from your mods folder if you are running 26.2",
       "causes": [
         {
           "method": "contains",
-          "value": "at me.partlysanestudios.partlysaneskies.features.economy.auctionhousemenu.AuctionHouseGui$Companion.isAuctionHouseFullyLoaded(AuctionHouseGui.kt:259)"
+          "value": "Cannot invoke \"net.minecraft.client.player.LocalPlayer.getInventory()\" because \"this.minecraft.player\" is null"
         }
       ]
     },
