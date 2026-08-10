@@ -2283,6 +2283,20 @@
           "value": "at org.polyfrost.vanillahud.VanillaHUD.isSkyHanni"
         }
       ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Remove Sound Physics Perfected. The mod developer needs to fix this themselves.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ShadowInstanceToChannelMixin from mod sound_physics_perfected"
+        },
+        {
+          "method": "contains",
+          "value": "Critical injection failure"
+        }
+      ]
     }
   ],
   "fixtypes": [
