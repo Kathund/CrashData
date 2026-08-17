@@ -1113,25 +1113,6 @@
       ]
     },
     {
-      "fixtype": 2,
-      "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the `jar` file to your mods folder %pathindicator%%profileroot%/mods/%pathindicator%",
-      "onlySkyClient": true,
-      "causes": [
-        {
-          "method": "contains",
-          "value": "-- System Details --"
-        },
-        {
-          "method": "contains",
-          "value": "forge-1.8.9-11.15.1.2318-1.8.9.jar"
-        },
-        {
-          "method": "contains_not",
-          "value": "skyblockclientupdater"
-        }
-      ]
-    },
-    {
       "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to %pathindicator%%gameroot%/versions%pathindicator%.\n2. Remove the directory 1.8.9.\n3. Navigate to %pathindicator%%gameroot%%pathindicator%\n4. Remove the directory assets",
       "causes": [
         {
